@@ -1,3 +1,21 @@
+/* Tags, IDs e Classes */
+
+/* Tag */
 h3 {
   color: blueviolet;
+}
+
+/* ID */
+#segundo-paragrafo {
+  font-size: 20px;
+}
+
+/* Classe */
+.paragrafo-bloco1 {
+  font-size: 24px;
+}
+
+.paragrafo-bloco2 {
+  font-size: 28px;
+  color: red;
 }
