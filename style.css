@@ -5,17 +5,33 @@ h3 {
   color: blueviolet;
 }
 
+p span {
+  font-size: 32px;
+  color: blue;
+}
+
 /* ID */
 #segundo-paragrafo {
   font-size: 20px;
 }
 
 /* Classe */
-.paragrafo-bloco1 {
+.paragrafo-bloco1,
+.paragrafo-bloco3 {
   font-size: 24px;
 }
 
 .paragrafo-bloco2 {
   font-size: 28px;
   color: red;
+}
+
+.span-textinho {
+  font-size: 32px;
+  color: blue;
+}
+
+p .span-textinho {
+  font-size: 32px;
+  color: blue;
 }
