@@ -25,6 +25,15 @@ p {
   line-height: 1.5;
 }
 
+a {
+  font-style: italic;
+  text-decoration: dotted;
+  text-decoration-line: underline;
+  text-decoration-color: green;
+  color: blueviolet;
+  font-weight: 700;
+}
+
 .primeiro-paragrafo {
   font-style: italic;
   font-weight: 700;
@@ -33,7 +42,7 @@ p {
 .realce {
   font-style: italic;
   font-weight: 700;
-  color: aquamarine;
+  color: #7fffd4;
 }
 
 .caixa-alta {
