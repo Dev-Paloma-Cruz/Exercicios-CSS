@@ -1,0 +1,32 @@
+h1,
+p,
+a {
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Cabeçalho */
+
+.lista-nao-ordenada a {
+  color: #112e61;
+  font-size: 14px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+/* Seção Hero */
+
+h1 {
+  color: #404040;
+  font-size: 53.12;
+  line-height: 1;
+  font-weight: 600;
+  letter-spacing: 3.36px;
+  text-align: justify;
+}
+
+p {
+  color: #404040;
+  font-size: 30.72;
+  line-height: 1.3;
+}
