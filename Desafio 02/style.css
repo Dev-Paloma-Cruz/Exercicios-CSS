@@ -29,6 +29,10 @@ h2 {
   text-decoration: none;
 }
 
+.realce-semibold {
+  font-weight: 600;
+}
+
 /* Cabeçalho */
 
 .lista-nao-ordenada a {
@@ -106,10 +110,6 @@ h1 {
 
 /* Seção O que falam */
 
-.realce-span {
-  font-weight: 600;
-}
-
 /* Seção Na mídia */
 
 /* Seção Blog da Hashtag */
@@ -136,9 +136,9 @@ h1 {
 
 /* Seção Como ajudar */
 
-.como-ajudar-realce {
+/* .como-ajudar-realce {
   font-weight: 600;
-}
+} */
 
 .como-ajudar-lista,
 .como-ajudar-paragrafo {
@@ -154,3 +154,5 @@ h1 {
 .como-ajudar-paragrafo b {
   font-weight: 600;
 }
+
+/* Seção Minicurso */
