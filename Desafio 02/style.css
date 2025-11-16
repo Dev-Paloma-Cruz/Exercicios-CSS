@@ -156,3 +156,24 @@ h1 {
 }
 
 /* Seção Minicurso */
+
+/* Rodapé */
+
+.rodape-titulo {
+  font-weight: 600;
+  font-size: 22px;
+}
+
+.rodape-subtitulo {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.rodape-seg-subtitulo {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.rodape-link {
+  color: #1a77a4;
+}
