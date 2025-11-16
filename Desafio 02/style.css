@@ -133,3 +133,24 @@ h1 {
 .blog-descricao-post {
   font-size: 17px;
 }
+
+/* Seção Como ajudar */
+
+.como-ajudar-realce {
+  font-weight: 600;
+}
+
+.como-ajudar-lista,
+.como-ajudar-paragrafo {
+  font-size: 19px;
+}
+
+.como-ajudar-lista a,
+.como-ajudar-paragrafo a {
+  color: #008ff7;
+  font-weight: 600;
+}
+
+.como-ajudar-paragrafo b {
+  font-weight: 600;
+}
