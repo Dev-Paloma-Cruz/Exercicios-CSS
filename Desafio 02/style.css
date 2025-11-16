@@ -22,6 +22,12 @@ h2 {
   font-weight: 400;
 }
 
+.botao {
+  font-size: 24px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
 /* Cabeçalho */
 
 .lista-nao-ordenada a {
@@ -41,12 +47,6 @@ h1 {
 
 .hero-paragrafo {
   font-size: 19px;
-}
-
-.hero-botao {
-  font-size: 24px;
-  font-weight: 700;
-  text-decoration: none;
 }
 
 /* Seção Conteúdos Gratuitos */
@@ -101,4 +101,10 @@ h1 {
   color: #005e88;
   font-weight: 700;
   text-decoration: none;
+}
+
+/* Seção O que falam */
+
+.realce-span {
+  font-weight: 600;
 }
