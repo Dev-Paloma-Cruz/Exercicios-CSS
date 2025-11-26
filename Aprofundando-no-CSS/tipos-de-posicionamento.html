@@ -16,7 +16,7 @@
         font-size: 62.5%;
       }
 
-      /* position: static, relative, absolute, fixed  */
+      /* position: static, relative, absolute, fixed, sticky  */
 
       h1 {
         font-size: 3.2rem;
@@ -32,7 +32,19 @@
         color: inherit;
       }
 
-      a {
+      p {
+        position: fixed;
+
+        bottom: 1rem;
+        right: 1rem;
+      }
+
+      .texto-sticky {
+        position: sticky;
+        top: 1rem;
+      }
+
+      a:first-child {
         /* Lembrar de colocar com posicionameto relativo o elemento para o qual você está buscando o posicionamento abosluto. */
         /* O elemento em questão está sendo posicionado absolutamente em relação a quem? A respota deverá estar com posicionamento relativo. */
         position: absolute;
@@ -50,14 +62,18 @@
         bottom: ; */
         position: relative;
 
-        height: 35rem;
+        height: 70rem;
         width: 30rem;
         background-color: green;
         color: white;
       }
     </style>
 
-    <div><a href="">Acesse meu site!</a></div>
+    <div>
+      <a href="">Acesse meu site!</a>
+      <a href="">"Outro acesse meu site!"</a>
+      <p class="texto-sticky">Um textinho aleatório</p>
+    </div>
 
     <p>Parágrafo</p>
   </body>
