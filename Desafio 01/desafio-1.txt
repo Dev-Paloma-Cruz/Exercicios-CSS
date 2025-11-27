@@ -1,23 +1,38 @@
-Vamos formatar a página que criamos no desafio 1 do módulo de Introdução ao HTML.
+Vamos modificar um pouco mais a página que criamos no desafio 1 do módulo de Introdução ao CSS.
 
-A fonte de todos os textos da página deverá ser Montserrat e, caso o navegador não consiga carregar, deverá usar uma fonte sans-serif.
+Vamos usar todos os conceitos vistos nesse módulo. Vai ser ótimo para testar os conhecimentos que você adquiriu!
 
-Vamos alterar o tamanho dos textos da página de acordo com a tabela:
+Vale mencionar que, mesmo sendo um módulo de CSS, vamos alterar o HTML do arquivo também.
 
-Elemento - Tamanho - Altura da Linha
-h1 - 45px - 1
-h2 - 32px - 1.1
-h3 - 24px - 1.2
-p - 18px - 1.4
+Na parte de HTML, divida o arquivo nas seções que aprendemos na parte de estrutura dos documentos. Vai uma dica: teremos uma grande seção na página e três seções menores. Se você julgar necessário, pode adicionar classes nos elementos.
 
-A legenda da imagem deverá ter 12px de tamanho e deverá estar em itálico.
+Nosso arquivo em CSS deverá iniciar com o seletor universal zerando o espaçamento interno, o espaçamento externo e ajustando o Box Model. Depois disso, use o conceito de herança de estilos para definir a fonte como Montserrat, o tamanho da fonte em 18px e a altura da linha em 1.4.
 
-O link de compra deverá estar na cor #c44105 com 24px de tamanho, negrito e com um sublinhado duplo.
+Vamos alterar o font size da raiz do site (root) para 10px ou o equivalente em %. Depois dessa alteração, vamos mudar TODAS as unidades do documento para rem.
 
-Os itens de lista deverão estar na cor #035276 e em itálico.
+Use um espaçamento interno de 24px nas três seções menores do site.
 
-Vamos realçar o texto '75"' que está dentro do H1 com a cor #0588c4.
+Adicione um espaçamento externo inferior seguindo a tabela abaixo:
 
-Os dois realces que fizemos na seção de Preço deverão ter a cor #0588c4. (Existem várias formas certas de fazer isso). Você pode trocar os códigos em HTML, só lembre de não perder a parte semântica do que tínhamos construído. 
+h1, figure  - 32px
+h2, a, ul - 24px
+h3 - 18px
+p, li - 6px
 
-Os dois realces da seção de Condições deverão estar na cor #0588c4 e o realce do frete grátis deverá adicionar um sublinhado também. Lembre de não perder a parte semântica do HTML aqui também.
+OBS: se atente para o espaçamento externo inferior da âncora. Tente resolver o problema.
+
+A legenda da figura da página deverá ter um espaçamento externo da esquerda de 32px. A lista não ordenada deverá ter um espaçamento externo da esquerda de 24px.
+
+Os hrs da página não deverão aparecer na tela do navegador. Faça isso apenas com CSS.
+
+A primeira letra do título h1 deverá ter 64px de tamanho da fonte. Faça isso usando apenas o CSS.
+
+Lembre de usar aquela sigla de Pseudo Classes no único link da página. Quando alguém passar o mouse por cima do link, ele deverá ficar na cor #0588c4;
+
+Agrupe os itens da seção de condições em um bloco. O bloco deverá ocupar apenas o tamanho do seu conteúdo. Esse bloco deverá ter #035276 como cor de fundo e #fff como cor da fonte. A sombra deverá ser preta com 15% de transparência, raio de desfoque de 16px e raio de propagação de 4px, sem nenhum deslocamento vertical ou horizontal. O espaçamento interno vertical deverá ser de 24px e o horizontal de 32px. O arredondamento da borda deverá ser de 20px.
+
+Tanto o realce itálico quanto o realce de underline, se estiverem dentro do bloco de condições, deverão estar na cor #78d4ff.
+
+Divirta-se!
+
+Bônus: vamos copiar o botão de WhatsApp que fica no canto inferior direito do site da Hashtag (www.hashtagtreinamentos.com). Primeiro passo é acessar o site e copiar o link da imagem. Segundo passo é adicionar essa imagem (junto com um link que leve para o site do WhatsApp Web - https://web.whatsapp.com) em nosso HTML. O último passo é formatar essa imagem mexendo no posicionamento dela para que ela fique fixada na tela no canto superior direito afastada de 10px da lateral direita e da parte superior. O tamanho da imagem deve ser de 85px.
