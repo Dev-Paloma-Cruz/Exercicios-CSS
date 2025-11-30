@@ -74,7 +74,7 @@ nav {
   display: none;
 }
 
-nav ul {
+ul {
   list-style: none;
 }
 
@@ -152,19 +152,23 @@ nav ul {
 }
 
 .caixa-cursos-hashtag {
+  position: relative;
   box-shadow: inset 0 0 0.8rem 0.1rem rgba(0, 0, 0, 0.15);
   border-radius: 2.5rem;
   padding: 2rem;
 }
 
 .caixa-grauito-h3 {
+  position: absolute;
+  top: 0;
+  left: 50%;
   display: inline-block;
-  padding: 0.43rem 1.02rem;
-  color: white;
+  padding: 0.42rem 1.6rem;
   background-image: linear-gradient(90deg, #aa56e6, #6d42b9);
+  color: white;
   border-radius: 1rem;
-  transform: rotate(-2deg);
-  box-shadow: 0 0.21rem 0.4rem rgba(0, 0, 0, 0.1);
+  transform: rotate(-3deg) translate(-50% -50%);
+  box-shadow: 0 0.21rem 0.4rem rgba(0, 0, 0, 0.15);
 }
 
 .gratuito-realce {
@@ -177,15 +181,31 @@ nav ul {
   font-weight: 700;
 }
 
-.gratuito-link-lista {
-  font-size: 1.9rem;
+.gratuito-link-lista:link,
+.gratuito-link-lista:visited {
+  display: inline-block;
+  background-color: #eee;
+  padding: 0.42rem 3.122rem;
+  border-radius: 2.5rem;
+  box-shadow: 0 0.4rem 0.2rem rgba(0, 0, 0, 0.15);
+  font-size: 1.92rem;
   text-decoration: none;
+  color: inherit;
+}
+
+.gratuito-link-lista:hover,
+.gratuito-link-lista:active {
+  text-decoration: underline;
+}
+
+.gratuito-link-lista img {
+  width: 1.8rem;
 }
 
 /* Seção Diferenciais */
 
 .diferenciais-p {
-  font-size: 1.9rem;
+  font-size: 1.92rem;
 }
 
 .diferenciais-h3 {
@@ -233,7 +253,7 @@ nav ul {
 
 .comoajudar-lista,
 .comoajudar-paragrafo {
-  font-size: 1.9rem;
+  font-size: 1.92rem;
 }
 
 .comoajudar-lista a,
