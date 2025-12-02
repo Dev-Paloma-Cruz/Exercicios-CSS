@@ -298,6 +298,54 @@ ul {
 
 /* Seção O que falam */
 
+.secao-o-que-falam {
+  background-image: url(https://elegant-rabanadas-4b0397.netlify.app/Imagens/Formato%20Novo/BACKGROUN-banner-04.webp);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.o-que-falam-titulo {
+  color: white;
+}
+
+.o-que-falam-seta {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-60%);
+}
+
+.o-que-falam-carrossel-img {
+  background-position: 50%;
+  background-size: cover;
+  aspect-ratio: 16/9;
+  width: 33%;
+  border-radius: 2.5rem;
+  display: inline-block;
+}
+
+.o-que-falam-carrossel {
+  position: relative;
+}
+
+.seta-esquerda {
+  left: 0;
+}
+
+.seta-direita {
+  right: 0;
+}
+
+.o-que-falam-carrossel-img-1 {
+  background-image: url(https://i3.ytimg.com/vi/N_EZD04zmrw/hqdefault.jpg);
+}
+.o-que-falam-carrossel-img-2 {
+  background-image: url(https://i3.ytimg.com/vi/auqWeBJLJHY/hqdefault.jpg);
+}
+.o-que-falam-carrossel-img-3 {
+  background-image: url(https://i3.ytimg.com/vi/FD79IpCaM1Y/hqdefault.jpg);
+}
+
 /* Seção Blog */
 
 .blog-postadoem {
