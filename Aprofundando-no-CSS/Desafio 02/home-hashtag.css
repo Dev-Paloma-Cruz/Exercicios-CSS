@@ -52,6 +52,8 @@ strong {
   padding: 0.65rem 2.5rem;
   color: white;
   box-shadow: 0 0.21rem 0.8rem rgba(0, 0, 0, 0.15);
+  border-bottom: solid 0.4rem #993c38;
+  border-right: solid 0.4rem #993c38;
 }
 
 .realce-semibold {
@@ -310,6 +312,7 @@ ul {
 }
 
 .o-que-falam-seta {
+  cursor: pointer;
   position: absolute;
   top: 50%;
 }
@@ -341,6 +344,7 @@ ul {
 }
 
 .seta-player {
+  cursor: pointer;
   position: absolute;
   width: 3rem;
   left: 40%;
@@ -356,6 +360,32 @@ ul {
 }
 .o-que-falam-carrossel-img-3 {
   background-image: url(https://i3.ytimg.com/vi/FD79IpCaM1Y/hqdefault.jpg);
+}
+
+.item-navegacao {
+  cursor: pointer;
+  display: inline-block;
+  width: 1.2rem;
+  height: 1.2rem;
+  border-radius: 50%;
+  background-color: #86a8bc;
+}
+
+.ativa {
+  background-color: #14577f;
+}
+
+.botao-o-que-falam {
+  background-image: linear-gradient(180deg, #196c9f, #1a80a7);
+  border-bottom-color: #14577f;
+  border-right-color: #14577f;
+}
+
+.botao-o-que-falam:hover {
+  background-image: none;
+  background-color: #1a80a7;
+  border-bottom-color: #1a80a7;
+  border-right-color: #1a80a7;
 }
 
 /* Seção Blog */
