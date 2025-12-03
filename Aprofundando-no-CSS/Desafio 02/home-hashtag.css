@@ -388,6 +388,21 @@ ul {
   border-right-color: #1a80a7;
 }
 
+/* Seção Na mídia */
+.secao-na-midia {
+  padding-top: 3.9rem;
+  padding-bottom: 3.9rem;
+  background-image: url(https://www.hashtagtreinamentos.com/wp-content/uploads/2022/06/BACKGROUND-Banner-05_1.png);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.seta-na-midia,
+.h2-na-midia {
+  display: inline-block;
+}
+
 /* Seção Blog */
 
 .blog-postadoem {
