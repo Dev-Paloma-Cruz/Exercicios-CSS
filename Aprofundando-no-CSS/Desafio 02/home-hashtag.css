@@ -17,6 +17,7 @@ body {
   color: #404040;
   font-size: 1.6rem;
   line-height: 1.4;
+  background-color: #f4f5f7;
 }
 
 h1 {
@@ -222,10 +223,6 @@ ul {
 
 /* Seção Diferenciais */
 
-.secao-diferenciais {
-  background-color: #f4f5f7;
-}
-
 .container-diferenciais {
   border-radius: 5rem;
   background-color: white;
@@ -415,10 +412,6 @@ ul {
 
 /* Seção Blog */
 
-.secao-blog {
-  background-color: #f4f5f7;
-}
-
 .container-blog {
   position: relative;
   border-radius: 5rem;
@@ -439,6 +432,7 @@ ul {
   box-shadow: inset 0 0 0.4rem 0.15rem rgba(0, 0, 0, 0.15);
   padding: 2rem;
   width: 49%;
+  background-color: #fff;
 }
 
 .caixa-post-blog img {
@@ -463,10 +457,51 @@ ul {
 
 /* Seção Como ajudar */
 
-.comoajudar-lista a,
-.comoajudar-paragrafo a {
+.secao-como-ajudar {
+  padding: 0;
+}
+
+.secao-sec-laranja {
+  background-image: url(https://elegant-rabanadas-4b0397.netlify.app/Imagens/Formato%20Novo/BACKGROUND-banner-07.webp);
+  background-position: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.secao-sec-laranja,
+.secao-sec-cinza {
+  padding: 7.63rem 2rem;
+}
+
+.caixa-como-ajudar-h2 {
+  display: inline-block;
+  padding: 0.42rem 1.6rem;
+  color: white;
+  border-radius: 1rem;
+  box-shadow: 0 0.21rem 0.4rem rgba(0, 0, 0, 0.15);
+  background-image: linear-gradient(90deg, #14a1d5, #1a8ad4);
+}
+
+.comoajudar-lista {
+  border-radius: 2.5rem;
+  box-shadow: inset 0 0 0.8rem 0.15rem rgba(0, 0, 0, 0.15);
+  padding: 2.5rem;
+  background-color: #f9f9f9;
+}
+
+.comoajudar-lista a:link,
+.comoajudar-lista a:visited,
+.comoajudar-paragrafo a:link,
+.comoajudar-paragrafo a:visited {
   color: #008ff7;
   font-weight: 600;
+}
+
+.comoajudar-lista a:hover,
+.comoajudar-lista a:active,
+.comoajudar-paragrafo a:hover,
+.comoajudar-paragrafo a:active {
+  color: #0056b3;
 }
 
 .comoajudar-paragrafo b {
