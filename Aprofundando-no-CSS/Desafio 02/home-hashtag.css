@@ -312,10 +312,12 @@ ul {
 .o-que-falam-seta {
   position: absolute;
   top: 50%;
-  transform: translateY(-60%);
 }
 
 .o-que-falam-carrossel-img {
+  background-color: #7489af;
+  background-blend-mode: multiply;
+  position: relative;
   background-position: 50%;
   background-size: cover;
   aspect-ratio: 16/9;
@@ -330,10 +332,20 @@ ul {
 
 .seta-esquerda {
   left: 0;
+  transform: translate(60% 60%);
 }
 
 .seta-direita {
   right: 0;
+  transform: translate(60% 60%);
+}
+
+.seta-player {
+  position: absolute;
+  width: 3rem;
+  left: 40%;
+  top: 40%;
+  transform: translate(-50% -50%);
 }
 
 .o-que-falam-carrossel-img-1 {
