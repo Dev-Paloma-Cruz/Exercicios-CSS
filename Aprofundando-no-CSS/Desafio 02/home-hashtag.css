@@ -340,14 +340,18 @@ ul {
   position: relative;
 }
 
+.o-que-falam-seta {
+  position: relative;
+}
+
 .seta-esquerda {
-  left: 0;
-  transform: translate(60% 60%);
+  left: -5%;
+  transform: translateY(300%);
 }
 
 .seta-direita {
-  right: 0;
-  transform: translate(60% 60%);
+  right: -97%;
+  transform: translateY(300%);
 }
 
 .seta-player {
