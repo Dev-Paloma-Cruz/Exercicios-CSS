@@ -40,7 +40,10 @@
         /* flex-direction: row;
         flex-wrap: wrap; */
         flex-flow: row;
+        justify-content: center; /*Justify content: main Axis; */
+        align-items: center; /*Align items - Cross Axis*/
         /* flex-flow: flex-direction flex-wrap; */
+        /* height: 100vh; */
       }
 
       section {
@@ -51,7 +54,7 @@
         /* flex: flex-grow; fator/número */
         /* flex: flex-grow; flex-basis */
         /* flex: flex-grow flex-shrink flex-basis; */
-        flex: 1 1 0rem;
+        width: 40rem;
         /* flex: 1; */
       }
 
@@ -59,22 +62,34 @@
         /* flex-basis: 60rem; */
         /* flex-grow: 2; */
         /* flex: 2; */
-        flex: 2 1 0rem;
+        /* flex: 2 1 0rem; */
         background-color: rgb(255, 181, 181);
       }
 
-      section:nth-child(2) {
-        background-color: rgb(192, 255, 181);
-        /* flex-shrink: 2; */
-      }
+      /* section:nth-child(2) {
+        flex-shrink: 2;
+      } */
 
       section:last-child {
         background-color: rgb(181, 196, 255);
       }
+
+      .segunda-secao {
+        background-color: rgb(192, 255, 181);
+        order: -1;
+        align-self: end;
+      }
+
+      .primeira-secao {
+        display: flex;
+        flex-flow: column;
+        gap: 2.5rem;
+        align-items: center;
+      }
     </style>
 
     <main>
-      <section>
+      <section class="primeira-secao">
         <h1>Meu título</h1>
         <h2>Meu subtítulo</h2>
         <p>
@@ -90,8 +105,8 @@
           facere ipsa fuga, blanditiis, similique obcaecati esse error qui!
         </p>
       </section>
-      <section>
-        <h2>Meu subtítulo</h2>
+      <section class="segunda-secao">
+        <h2>Segunda seção</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla
           debitis quibusdam quidem officiis rem earum molestias commodi natus ut
