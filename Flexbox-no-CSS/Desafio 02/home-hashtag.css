@@ -508,15 +508,31 @@ nav ul {
   background-size: cover;
 }
 
+.container-o-que-falam {
+  display: flex; 
+  flex-flow: column;
+  align-items: center;
+  gap: 3.12rem;
+}
+
 .oquefalam-titulo {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
   color: white;
 }
 
 .oquefalam-carrossel {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
   position: relative;
+  align-self: stretch;
+  gap: 2rem;
 }
 
 .oquefalam-carrossel-img {
+  flex: 1;
   background-color: #7489af;
   background-blend-mode: multiply;
   position: relative;
@@ -524,8 +540,13 @@ nav ul {
   background-position: 50%;
   background-size: cover;
   aspect-ratio: 16/9;
-  width: 33%;
   border-radius: 2.5rem;
+}
+
+.o-que-falam-carrossel-imagens {
+  display: flex;
+  align-self: stretch;
+  gap: 2rem;
 }
 
 .oquefalam-carrossel-img--1 {
