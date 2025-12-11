@@ -620,9 +620,23 @@ nav ul {
   background-size: cover;
 }
 
-.seta-namidia,
-.h2-namidia {
-  display: inline-block;
+.na-midia-links, .na-midia-titulo {
+  display: flex; 
+  align-items: center;
+}
+
+.na-midia-links {
+  gap: 2rem;
+}
+
+.na-midia-titulo {
+  gap: 1.02rem;
+}
+
+.container-na-midia {
+  display: flex;
+  gap: 3.12rem;
+  justify-content: space-between;
 }
 
 /* Seção Blog */
