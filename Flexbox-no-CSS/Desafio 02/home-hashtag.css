@@ -714,6 +714,26 @@ nav ul {
   padding: 7.63rem 2rem;
 }
 
+.container-como-ajudar,
+.container-como-ajudar-2 {
+  display: flex;
+  flex-flow: column;
+}
+
+.container-como-ajudar,
+.container-como-ajudar-2 {
+  width: 86rem;
+}
+
+.container-como-ajudar-2 {
+  gap: 1.6rem;
+}
+
+.container-como-ajudar {
+  align-items: center;
+ gap: 3.12rem;
+}
+
 .caixa-comoajudar-h2 {
   display: inline-block;
   padding: 0.42rem 1.6rem;
@@ -723,11 +743,24 @@ nav ul {
   background-image: linear-gradient(90deg, #14a1d5, #1a8ad4);
 }
 
-.comoajudar-lista {
+.comoajudar-lista {  
+  display: flex;
+  flex-flow: column;
+  gap: 1.28rem;
   border-radius: 2.5rem;
   box-shadow: inset 0 0 0.8rem 0.15rem rgba(0, 0, 0, 0.15);
   padding: 2.5rem;
   background-color: #f9f9f9;
+}
+
+.comoajudar-lista li {
+  display: flex;
+  align-items: start;
+  gap: 0.82rem;
+}
+
+.comoajudar-lista li img {
+  transform: translateY(40%)
 }
 
 .comoajudar-lista a:link,
