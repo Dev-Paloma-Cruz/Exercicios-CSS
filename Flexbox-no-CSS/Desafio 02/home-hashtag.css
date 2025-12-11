@@ -812,6 +812,48 @@ nav ul {
   width: 18rem;
 }
 
+.container-rodape {
+  width: 106rem;
+  display: flex;
+  align-items: start;
+  gap: 4.88rem;
+}
+
+.subsecao-rodape,
+.subsecao-cursos-online,
+.subsecao-assistente,
+.rodape-div-icone-link,
+.rodape-coluna {
+  display: flex;
+  flex-flow: column;
+}
+
+.rodape-coluna {
+  gap: 3.12rem;
+}
+
+.subsecao-assistente {
+  gap: 1.02rem;
+}
+
+.subsecao-rodape {
+  gap: 1.6rem;
+}
+
+.subsecao-cursos-online {
+  gap: 1.6rem;
+}
+
+.rodape-icone-link {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+}
+
+.rodape-div-icone-link {
+  gap: 0.65rem;
+}
+
 .form-minicurso {
   align-self: stretch;
   display: flex;
@@ -842,6 +884,10 @@ nav ul {
   color: #1a77a4;
 }
 
+.rodape-copyright {
+  text-align: center;
+}
+
 .rodape svg {
   width: 2.4rem;
 }
@@ -849,6 +895,11 @@ nav ul {
 .link-redessociais:hover svg {
   fill: #f60;
   stroke: #f60;
+}
+
+.link-redessociais svg {
+  fill: #404040;
+  stroke: #404040;
 }
 
 .rodape a.link-redessociais:link,
@@ -864,6 +915,10 @@ nav ul {
 }
 
 .form-newsletter {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  gap: 1.6rem;
   border-radius: 2.5rem;
   box-shadow: inset 0 0 0.8rem 0.15rem rgba(0, 0, 0, 0.15);
   padding: 2.5rem;
@@ -878,6 +933,11 @@ nav ul {
 
 .botao-newsletter:hover {
   border: solid 0.2rem #1a77a4;
+}
+
+.rodape-link-redes-sociais {
+  display: flex;
+  gap: 0.82rem;
 }
 
 /* Fixado */
