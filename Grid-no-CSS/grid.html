@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grid</title>
+  </head>
+  <body>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+
+      html {
+        font-size: 62.5%;
+      }
+
+      .grid {
+        width: 100rem;
+        display: grid;
+        grid-auto-flow: column;
+
+        & div {
+          background-color: red;
+          width: 30rem;
+          height: 30rem;
+        }
+
+        & .div2 {
+          background-color: blue;
+        }
+
+        & .div3 {
+          background-color: green;
+        }
+
+        & .div4 {
+          background-color: yellow;
+        }
+
+        & .div5 {
+          background-color: purple;
+        }
+      }
+    </style>
+
+    <div class="grid">
+      <div class="div1"></div>
+      <div class="div2"></div>
+      <div class="div3"></div>
+      <div class="div4"></div>
+      <div class="div5"></div>
+    </div>
+  </body>
+</html>
