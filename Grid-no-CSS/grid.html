@@ -21,6 +21,9 @@
         width: 100rem;
         display: grid;
         grid-auto-flow: column;
+        /* grid-auto-rows: 40rem 50rem; */
+        grid-template-rows: repeat(3, 1fr);
+        /* 1fr 1fr 1fr */
 
         & div {
           background-color: red;
@@ -43,6 +46,14 @@
         & .div5 {
           background-color: purple;
         }
+
+        & .div6 {
+          background-color: brown;
+        }
+
+        & .div7 {
+          background-color: lime;
+        }
       }
     </style>
 
@@ -52,6 +63,8 @@
       <div class="div3"></div>
       <div class="div4"></div>
       <div class="div5"></div>
+      <div class="div6"></div>
+      <div class="div7"></div>
     </div>
   </body>
 </html>
