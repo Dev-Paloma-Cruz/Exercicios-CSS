@@ -20,12 +20,20 @@
       .grid {
         width: 100rem;
         display: grid;
-        grid-auto-flow: column;
+        /* grid-auto-flow: column; */
         /* grid-auto-rows: 40rem 50rem; */
         grid-template-rows: repeat(3, 1fr);
         /* 1fr 1fr 1fr */
+        grid-template-columns: repeat(2, 1fr) 2fr 1fr;
+        /* grid-auto-columns: 1fr 2fr 1fr; */
 
         & div {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          font-size: 2.76rem;
+          font-weight: 700;
+          color: white;
           background-color: red;
           width: 30rem;
           height: 30rem;
@@ -41,6 +49,7 @@
 
         & .div4 {
           background-color: yellow;
+          color: black;
         }
 
         & .div5 {
@@ -58,13 +67,13 @@
     </style>
 
     <div class="grid">
-      <div class="div1"></div>
-      <div class="div2"></div>
-      <div class="div3"></div>
-      <div class="div4"></div>
-      <div class="div5"></div>
-      <div class="div6"></div>
-      <div class="div7"></div>
+      <div class="div1">1</div>
+      <div class="div2">2</div>
+      <div class="div3">3</div>
+      <div class="div4">4</div>
+      <div class="div5">5</div>
+      <div class="div6">6</div>
+      <div class="div7">7</div>
     </div>
   </body>
 </html>
